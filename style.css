@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+
+}
+
+.outer-container{
+    width: 100%;
+    height: auto;
+    background-color: #111827;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-main-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    background-color: #111827;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    padding: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.bottom-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 0 2rem 2rem 2rem;
+}
+
+.freelancer-startup-enterprise{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2rem;
+    justify-content: flex-end;
+    align-items: baseline;
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+
+.freelancer-container,
+.startup-container,
+.enterprise-container{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    row-gap: 2rem;
+    padding: 3rem;
+    outline: 0.063rem solid #494C59;
+    border-radius: 0.313rem;
+    width: 100%;
+    height: auto;
+}
+
+
+.top-freelancer-container,
+.top-startup-container,
+.top-enterprise-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+    width: 100%;
+    height: auto;
+}
+
+.bottom-freelancer-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 100%;
+    height: auto;
+    justify-content: start;
+    align-items: start;
+}
+
+.price-month{
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+}
+
+.toggle-container {
+    display: inline-flex;
+    background-color: #232426; /* Dark background for the container */
+    border-radius: 25px;
+    padding: 5px;
+}
+
+/* Buttons */
+.toggle-button {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Active Button */
+.toggle-button.active {
+    background-color: #4f46e5; /* Active button color (e.g., purple) */
+    color: #ffffff;
+}
+
+.monthly-container{
+    background-color: #4f46e5;
+    padding: 0.25rem 0.625rem 0.25rem 0.625rem;
+    border: none;
+    border-radius: 1.5rem;
+    color: #fff;
+    width: fit-content;
+    height: auto;
+}
+
+.annual-container{
+    background-color: #ffffff0d;
+    padding: 0.25rem 0.625rem 0.25rem 4rem;
+    border: none;
+    border-radius: 1.5rem;
+    color: #fff;
+    width: fit-content;
+    height: auto;
+}
+
+
+.first-container,
+.second-container,
+.third-container,
+.fourth-container{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.6rem;
+    width: 100%;
+    height: auto;
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+
+.pricing-text{
+    color:#4f46e5;
+    font-weight: 500;
+    font-size: 1.25rem;
+    width: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.pricing-paragraph{
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.75rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.pricing-notes{
+    color: #9ca3af;
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.startup-box-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.price-month{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: start;
+    width: 100%;
+    height: auto;
+
+}
+
+.amount{
+    width: fit-content;
+    height: auto;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.month{
+    width: fit-content;
+    height: auto;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.freelancer-text,
+.startup-text,
+.enterprise-text{
+    width: fit-content;
+    height: auto;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.freelancer-note,
+.Startup-note,
+.enterprise-note{
+    width: 100%;
+    height: auto;
+    font-size: 0.75rem;
+    font-weight: 300;
+}
+
+.freelancer-button{
+    width: 100%;
+    height: auto;
+    background-color: #494C59;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.buy-plan-container{
+    width: 100%;
+    height: auto;
+
+}
+
+.price-month h3{
+    width: fit-content;
+    height: auto;
+    font-size: 1.75rem;
+    font-weight: 600;
+}
+
+.price-month p{
+    width: fit-content;
+    height: auto;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+.startup-box-container button{
+    width: 100%;
+    height: auto;
+    background-color: #4f46e5;
+    color: #fff;
+    border-radius: 0.7rem;
+    border: none;
+    padding: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.startup-button{
+    width: 100%;
+    height: auto;
+    background-color: #4f46e5;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.startup-container{
+    width: 100%;
+    height: auto;
+    background-color: #ffffff0d;
+    outline: 0.125rem solid #4f46e5;
+}
+
+.enterprise-button{
+    width: 100%;
+    height: auto;
+    background-color: #494C59;
+    color: #fff;
+    border: none;
+    padding: 1rem;
+    border-radius: 0.7rem;
+}
+
+.enterprise-container{
+    margin-right: 2rem;
+}
+
+.first-container p,
+.second-container p,
+.third-container p,
+.fourth-container p{
+    font-size: 0.75rem;
+    font-weight: 500;
+
+
+}

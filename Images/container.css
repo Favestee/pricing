@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    line-height: -0.031rem;
+
+}
+
+.main-container{
+width: 100%;
+height: auto;
+padding: 4rem;
+background-color: #f8f8f8;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.outer-container{
+    width: 36%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.background-img-container{
+    width: 100%;
+    height: auto;
+    background-color: #e8e8e8;
+    background-image: url(./frame.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 7rem;
+}
+
+.bottom-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.7rem;
+    padding: 0.5rem;
+}
+
+.profile-img-container{
+    width: 5rem;
+    height: 2.5rem;
+    border-radius: 2.5rem;
+    background-image: url(profile.img.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.details-container{
+    width: 100;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+    align-items: start;
+}
+
+.other-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    align-items: start;
+}
+
+.views{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    column-gap: 0.1rem;
+    justify-items: start;
+    text-align: center;
+
+
+
+}
+
+h3{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+p{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #4e4e4e;
+}
+
